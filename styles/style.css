@@ -369,3 +369,41 @@ footer a i {
   font-weight: bold;
   padding-right: 5px;
 }
+
+@media (max-width: 743px) {
+  .header {
+    display: none;
+  }
+  .blogMain_header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .blogMain_header h2 {
+    font-size: 25px;
+  }
+  .blogMain_header p {
+    font-size: 14px;
+  }
+  .blogMain_header span {
+    font-size: 14px;
+  }
+  .blogMain_Img div {
+    top: 100px;
+  }
+  .blogMain_Img div h3 {
+    font-size: 24px;
+  }
+  .blogMain_Img div h1 {
+    font-size: 30px;
+  }
+  .blogMain_Title {
+    flex-direction: column;
+  }
+  .blogMain_Title > div:first-child {
+    width: 100%;
+  }
+  .blogMain_Title .title_aside {
+    width: 100%;
+    margin: 0;
+  }
+}
