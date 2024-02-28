@@ -49,7 +49,7 @@
 }
 .blogMain_Img div {
   position: absolute;
-  top: 450px;
+  top: 40%;
   left: 30px;
 }
 .blogMain_Img div h3 {
@@ -272,7 +272,6 @@
 .tags .tag_span {
   background-color: #fff;
   font-size: 12px;
-  height: 100px;
   padding: 10px;
 }
 .tags .tag_span .active {
@@ -388,7 +387,7 @@ footer a i {
     font-size: 14px;
   }
   .blogMain_Img div {
-    top: 100px;
+    top: 35%;
   }
   .blogMain_Img div h3 {
     font-size: 24px;
@@ -407,3 +406,4 @@ footer a i {
     margin: 0;
   }
 }
+@media (min-width: 743px);
